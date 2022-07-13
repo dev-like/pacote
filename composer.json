@@ -1,0 +1,20 @@
+{
+    "name": "like/pacote",
+    "description": "Aprendi a facriar pacotes, agora vou reforcar o aprendido.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Like\\Pacote\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nathan Albuquerque",
+            "email": "nathan.nra@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.0"
+    }
+}
