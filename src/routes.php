@@ -1,5 +1,5 @@
 <?php
 
 Route::get('pacote', function(){
-	echo 'Hello from the calculator package!';
+	echo 'Olá do seu pacote!';
 });

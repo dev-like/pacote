@@ -1,6 +1,6 @@
 <?php
 
-namespace Like\Pacote;
+namespace Likedsg\Pacote;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +23,6 @@ class PacoteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
         include __DIR__.'/routes.php';
     }
 }
